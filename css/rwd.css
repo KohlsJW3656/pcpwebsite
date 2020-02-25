@@ -75,7 +75,9 @@
     .col-lg-12 { width: 100%; }
 }
 
+
 /* Debugging Lines */
+/*
 [class*="col-"] {
     border: 2px dashed red;
 }
@@ -83,3 +85,4 @@
 .row {
     border: 2px dashed blue;
 }
+*/
