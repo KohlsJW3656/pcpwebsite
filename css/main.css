@@ -12,7 +12,7 @@ header img {
 }
 
 header h1 {
-    color: red;
+    color: indianred;
     padding-top: 29px;
     padding-bottom: 28px;
 }
@@ -43,7 +43,7 @@ nav ul li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: red;
+    color: indianred;
 }
 
 nav ul li:hover {
