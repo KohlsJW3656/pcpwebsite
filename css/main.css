@@ -5,6 +5,7 @@
 header {
     font-size: large;
     background-color: black;
+    border-top: 3px solid rgb(255, 43, 51);
 }
 
 header img {
@@ -12,7 +13,7 @@ header img {
 }
 
 header h1 {
-    color: indianred;
+    color: rgb(255, 43, 51);
     padding-top: 29px;
     padding-bottom: 28px;
 }
@@ -43,7 +44,7 @@ nav ul li a {
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: indianred;
+    color: rgb(255, 43, 51);
 }
 
 nav ul li:hover {
@@ -51,6 +52,6 @@ nav ul li:hover {
 }
 
 .active {
-    color: whitesmoke;
-    background-color: gray;
+    color: black;
+    background-color: rgb(255, 43, 51);
 }
