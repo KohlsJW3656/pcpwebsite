@@ -2,7 +2,15 @@
     margin: 0;
 }
 
+@font-face {
+    font-family: 'Harlow Solid Italic';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Harlow Solid Italic'), url('fonts/HARLOWSI_1.woff') format('woff');
+}
+
 header {
+    font-family: 'Harlow Solid Italic';
     font-size: large;
     background-color: black;
     border-top: 3px solid rgb(255, 43, 51);
