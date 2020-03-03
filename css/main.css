@@ -10,8 +10,6 @@
 }
 
 header {
-    font-family: 'Harlow Solid Italic';
-    font-size: large;
     background-color: black;
     border-top: 3px solid rgb(255, 43, 51);
 }
@@ -21,16 +19,17 @@ header img {
 }
 
 header h1 {
+    font-family: 'Harlow Solid Italic';
+    font-size: 50px;
     color: rgb(255, 43, 51);
-    padding-top: 29px;
+    padding-top: 20px;
     padding-bottom: 28px;
 }
 
-#hearder {
-    height: 100%;
-}
-
 nav {
+    position: sticky;
+    top: 0;
+    width: 100%;
     background-color: black;
     border-top: 1px solid #ccc;
     border-right: 1px solid #ccc;
@@ -40,7 +39,6 @@ nav {
 nav ul {
     list-style-type: none;
     padding-left: 0px;
-
 }
 
 nav ul li {
@@ -51,6 +49,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 10px 20px;
+    font-size: 20px;
     text-decoration: none;
     color: rgb(255, 43, 51);
 }
@@ -62,4 +61,30 @@ nav ul li:hover {
 .active {
     color: black;
     background-color: rgb(255, 43, 51);
+}
+
+@media screen and (max-width: 600px) {
+    nav a:not(:first-child) {
+        display: none;
+    }
+    nav a.icon {
+        float: right;
+        display: block;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav.responsive {
+        position: relative;
+    }
+    nav.responsive.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    nav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
