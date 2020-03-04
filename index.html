@@ -4,14 +4,13 @@
     <title>Platinum Cherry Productions</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/rwd.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/index.css" type="text/css">
-    <script src="nav.js"></script>
+    <script src="js/main.js"></script>
   </head>
 
-  <body>
+  <body onresize="navResize()" onload="navResize()">
     <header class="row">
       <div class="col-xs-3 col-sm-2 col-lg-1">
         <img src="images/PCP_Logo.png" alt="Platinum Cherry Productions Logo Image">  
@@ -21,14 +20,13 @@
       </div>
     </header>
 
-    <nav id="nav" class="row nav">
+    <nav class="row">
       <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="products.html">Products</a></li>
-        <li><a href="roadmap.html">Road Map</a></li>
-        <li><a href="about.html">About Us</a></li>
-        <li><a href="contact.html">Contact</a></li>
-        <li><a href="javascripot:void(0);" class="icon" onClick="collapseNav()"><i class="fa fa-bars"></i></a></li>
+        <li class="navResize"><a class="active" href="index.html">Home</a></li>
+        <li class="navResize"><a href="products.html">Products</a></li>
+        <li class="navResize"><a href="roadmap.html">Road Map</a></li>
+        <li class="navResize"><a href="about.html">About Us</a></li>
+        <li class="navResize"><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
 
