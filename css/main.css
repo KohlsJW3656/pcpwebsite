@@ -1,6 +1,18 @@
 * {
     margin: 0;
 }
+body {
+    background-color: rgb(229, 228, 226);
+}
+
+p {
+    font-size: 16pt;
+}
+
+h2 {
+    font-size: 24pt;
+    color: red;
+}
 
 @font-face {
     font-family: 'Harlow Solid Italic';
@@ -20,10 +32,10 @@ header img {
 
 header h1 {
     font-family: 'Harlow Solid Italic';
-    font-size: 50px;
+    font-size: 30pt;
     color: rgb(255, 43, 51);
-    padding-top: 20px;
-    padding-bottom: 28px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 nav {
@@ -49,7 +61,7 @@ nav ul li {
 nav ul li a {
     display: block;
     padding: 10px 20px;
-    font-size: 20px;
+    font-size: 16pt;
     text-decoration: none;
     color: rgb(255, 43, 51);
 }
@@ -61,4 +73,14 @@ nav ul li:hover {
 .active {
     color: black;
     background-color: rgb(255, 43, 51);
+}
+
+@media only screen and (max-width: 768px) {
+    nav {
+        position: static;
+    }
+}
+
+.center {
+    text-align: center;
 }
