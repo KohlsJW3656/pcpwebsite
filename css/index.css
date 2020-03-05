@@ -17,3 +17,9 @@ html, body {
     border: 2px solid rgb(255, 43, 51);
     font-size: 20px;
 }
+
+@media only screen and (max-device-width: 756px) {
+    #backgroundImage {
+      background-attachment: scroll;
+    }
+}
