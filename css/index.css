@@ -5,7 +5,6 @@ html, body {
 #backgroundImage {
     background-image: url("../images/Scene1.jpg");
     height: 90vh;
-    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,8 +17,10 @@ html, body {
     font-size: 20px;
 }
 
-@media only screen and (max-device-width: 756px) {
-    #backgroundImage {
-      background-attachment: scroll;
-    }
+.parallax {
+    background-attachment: fixed;
+}
+
+.noParallax {
+    background-attachment: scroll;
 }

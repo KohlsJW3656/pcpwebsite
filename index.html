@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="css/main.css" type="text/css">
     <link rel="stylesheet" href="css/index.css" type="text/css">
     <script src="js/main.js"></script>
+    <script src="js/index.js"></script>
   </head>
 
-  <body onresize="navResize()" onload="navResize()">
+  <body onresize="navResize(); parallax('backgroundImage');" onload="navResize()">
     <header class="row">
       <div class="col-xs-3 col-sm-2 col-lg-1">
         <img src="images/PCP_Logo.png" alt="Platinum Cherry Productions Logo Image">  
@@ -32,7 +33,7 @@
 
     <main>
       <div class="row">
-        <div id="backgroundImage"></div>
+        <div id="backgroundImage" class="parallax"></div>
       </div>
       
       <div class="row card">
