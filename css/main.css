@@ -56,6 +56,7 @@ nav ul {
 nav ul li {
     float: left;
     border-right: 1px solid #ccc;
+    
 }
 
 nav ul li a {
@@ -64,6 +65,15 @@ nav ul li a {
     font-size: 16pt;
     text-decoration: none;
     color: rgb(255, 43, 51);
+}
+
+#navAbout {
+    border: none;
+}
+
+nav li:last-child {
+    border-right: none;
+    float: right;
 }
 
 nav ul li:hover {
@@ -78,6 +88,10 @@ nav ul li:hover {
 @media only screen and (max-width: 768px) {
     nav {
         position: static;
+    }
+
+    nav li:last-child, #navAbout {
+        border-right: 1px solid #ccc;
     }
 }
 
