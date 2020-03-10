@@ -23,7 +23,6 @@ h2 {
 
 header {
     background-color: black;
-    border-top: 3px solid rgb(255, 43, 51);
 }
 
 header img {
@@ -46,7 +45,7 @@ nav {
     border-top: 1px solid #ccc;
     border-right: 1px solid #ccc;
     border-left: 1px solid #ccc;
-    box-shadow: 0 0 10px 3px #ccc;
+    box-shadow: 0 0 10px 3px red;
 }
 
 nav ul {
