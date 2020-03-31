@@ -1,25 +1,41 @@
-const name = document.getElementById("name");
-const company = document.getElementById("company");
-const email = document.getElementById("email");
-const phone = document.getElementById("phone");
-const message = document.getElementById("message");
-const submitButton = document.getElementById("submitButton");
+var document, window;
 
-// numberInput.addEventListener("input", () => {
-//   if (numberInput.value.match(/^\d{7}$/)) {
-//     submitButton.disabled = false;
-//   }
-//   else {
-//     submitButton.disabled = true;
-//   }
-// });
+var inputName = document.getElementById("inputName");
+var inputEmail = document.getElementById("inputEmail");
+var inputPhone = document.getElementById("inputPhone");
+var inputCompany = document.getElementById("inputCompany");
+var inputMessage = document.getElementById("inputMessage");
 
-function submit() {
-    alert("Called");
-    if (name.value.length != 0 && email.value.length != 0 && message.value.length != 0) {
-        submitButton.disabled = false;
+function validate() {
+    if (validateName() && validateEmail() && validateMessage()) {
+        buildNewPage();
     }
-    else {
-        submitButton.disabled = true;
+}
+
+function validateName() {
+    if (inputName.value != "") {
+        return true;
     }
+    window.alert("Please enter your name");
+    return false;
+}
+
+function validateEmail() {
+    if (inputEmail.value != "" && inputEmail.value.match(/@/)) {
+        return true;
+    }
+    window.alert("Please enter a valid email");
+    return false;
+}
+
+function validateMessage() {
+    if (inputMessage.value != "") {
+        return true;
+    }
+    window.alert("Please enter your message");
+    return false;
+}
+
+function buildNewPage() {
+    window.alert("Valid");
 }

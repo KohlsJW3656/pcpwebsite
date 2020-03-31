@@ -55,18 +55,18 @@
         <form>
           <div class="col-xs-12 col-sm-6">
             <div class="row">
-              <input type="text" id="name" placeholder="*Name:">
-              <input type="text" id="company" placeholder="Company">
+              <input type="text" id="inputName" placeholder="*Name:">
+              <input type="text" id="inputCompany" placeholder="Company">
            </div>
             <div class="row">
-              <input type="email" id="email" placeholder="*Email:">
-              <input type="text" id="phone" placeholder="Phone:">
+              <input type="email" id="inputEmail" placeholder="*Email:">
+              <input type="text" id="inputPhone" placeholder="Phone:">
             </div>
             <div class="row">
-              <textarea id="message" placeholder="*Message:"></textarea>
+              <textarea id="inputMessage" placeholder="*Message:"></textarea>
             </div>
             <div class="row">
-              <input id="submitButton" type="button" value="Submit" disabled>
+              <input id="submitButton" type="button" onclick="validate()" value="Submit">
             </div>
           </div>
 

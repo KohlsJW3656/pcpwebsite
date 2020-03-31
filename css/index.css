@@ -3,23 +3,5 @@ html, body {
 } 
 
 #backgroundImage {
-    background-image: url("../images/Scene1.jpg");
-    height: 90vh;
-    background-attachment: scroll;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-.card {
-    background-color: lightblue;
-    padding: 50px;
-    border: 2px solid rgb(255, 43, 51);
-    font-size: 20px;
-}
-
-@media only screen and (min-width: 768px) {
-    #backgroundImage {
-        background-attachment: fixed;
-    }
+    width: 100%;
 }
