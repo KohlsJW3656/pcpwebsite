@@ -37,5 +37,5 @@ function validateMessage() {
 }
 
 function buildNewPage() {
-    window.alert("Valid");
+    document.getElementById("formContainer").innerHTML = "<h1>Your message has been sent!</h1>";
 }
