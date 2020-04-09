@@ -1,7 +1,12 @@
-html, body {
-    height: 100%;
-} 
+body {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
 
-#backgroundImage {
-    width: 100%;
+    background-image: url("../images/boardgame/map4.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }

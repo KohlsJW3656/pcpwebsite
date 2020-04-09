@@ -1,6 +1,13 @@
 * {
     margin: 0;
 }
+
+main {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 body {
     background-color: #ccc;
 }
@@ -13,7 +20,19 @@ p {
 h2 {
     font-size: 24pt;
     color: red;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    padding-top: 10px;
+    padding-left: 15px;
+    font-size: 20pt;
+}
+
+.info {
+    background-color: white;
+    margin-bottom: 50px;
+    box-shadow: 10px 10px 5px grey;
 }
 
 @font-face {
