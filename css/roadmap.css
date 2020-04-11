@@ -1,0 +1,10 @@
+.line {
+    border-left: solid rgb(255, 43, 51) 3px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+div ul li {
+    font-size: 16pt;
+    margin-bottom: 10px;
+}
