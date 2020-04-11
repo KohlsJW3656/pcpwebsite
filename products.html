@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="images/logo.png">
     <link rel="stylesheet" href="css/rwd.css" type="text/css">
     <link rel="stylesheet" href="css/main.css" type="text/css">
+    <link rel="stylesheet" href="css/products.css" type="text/css">
+    <script defer src="js/products.js"></script>
     <script src="js/main.js"></script>
   </head>
 
@@ -34,13 +36,30 @@
       <h2>Products</h2>
 
       <div class="row info">
-        <h3 class="col-xs-12 col-md-2">Boardgame #1</h3>
-        <p class="col-xs-12 col-md-10">We are currently working on a board game based off Caton and Risk. We have more board game ideas, and a very ambious idea of a 2D, top-down shooter game created in Unity. Stay tuned to see our other exciting products!</p>
+        <h3 class="col-xs-12">Board game #1</h3>
+        <div class="col-xs-12 col-md-6">
+          <p>Our first board game has a playstyle like Risk and Caton combined. Players build soldiers to collect resources, expand their armies, and defeat the other players and to defend their capitals. There are three unit types: infantry, tanks, and planes. Collect resources, trade with other players, and be the last to survive in this epic new game!</p>
+          <br>
+          <p>Expected Release: Fall, 2020.</p>
+        </div>
+
+        <div id="previousButton" class="navigationButton col-xs-1 center">&#x2190;</div>
+        <img id="boardgamePhoto" class="col-xs-10 col-md-4">
+        <div id="nextButton" class="navigationButton col-xs-1 center">&#x2192;</div>  
       </div>
 
       <div class="row info">
-        <h3 class="col-xs-12 col-md-2">Unity 2D Top-Down Shooter</h3>
-        <p class="col-xs-12 col-md-10">We are currently working on a board game based off Caton and Risk. We have more board game ideas, and a very ambious idea of a 2D, top-down shooter game created in Unity. Stay tuned to see our other exciting products!</p>
+        <h3 class="col-xs-12">Unity 2D Top-Down Shooter</h3>
+        <div class="col-xs-12 col-md-6">
+          <p>This game will have a playstyle similar to Shovel-Knight, but it will be from a top-down prospective. The main character is a time traveler and he must defeat a single villain that is causing havoc across time and space. Time periods include: Renaissance, Wild West, WWI, Vietnam, Modern, and Future.</p>
+          <br>
+          <p>Expected Release: Fall, 2024.</p>
+        </div>
+       
+        <video class="col-xs-12 col-md-6" title="Enemy Pathfinding" controls>
+          <source src="videos/Pathfinding3.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
       </div>
 
     </main>
