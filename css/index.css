@@ -3,10 +3,36 @@ body {
     margin-left: 0px;
     margin-right: 0px;
 
-    background-image: url("../images/boardgame/map3.jpg");
+    background-image: url("../images/boardgame/map3black.jpg");
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+}
 
+#logo {
+    width: 200px;
+    animation: fadeIn ease 5s;
+}
+
+h1 {
+    font-family: 'Harlow Solid Italic';
+    font-size: 45pt;
+    color: rgb(255, 43, 51);
+    animation: fadeIn ease 10s;
+}
+  
+@keyframes fadeIn {
+    0% {
+        opacity:0;
+    }
+    100% {
+        opacity:1;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    #logo {
+        width: 100px;
+    }
 }
