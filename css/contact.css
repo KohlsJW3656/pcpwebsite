@@ -6,7 +6,6 @@ input:not(#submitButton) {
 
 input::placeholder, textarea::placeholder {
     font-size: 12pt;
-    font-style: bold;
 }
 
 input:focus, textarea:focus {
