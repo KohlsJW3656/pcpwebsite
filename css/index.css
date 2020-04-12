@@ -18,6 +18,8 @@ body {
 h1 {
     font-size: 45pt;
     animation: fadeIn ease 7s;
+    font-family: 'Harlow Solid Italic';
+    color: rgb(255, 43, 51);
 }
   
 @keyframes fadeIn {
