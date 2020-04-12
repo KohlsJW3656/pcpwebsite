@@ -16,9 +16,7 @@ body {
 }
 
 h1 {
-    font-family: 'Harlow Solid Italic';
     font-size: 45pt;
-    color: rgb(255, 43, 51);
     animation: fadeIn ease 7s;
 }
   
