@@ -17,7 +17,7 @@ h2, h3, h4, p {
 }
 
 h1 {
-    font-family: 'Harlow Solid Italic';
+    font-family: 'Harlow Solid Italic', 'Segoe UI', sans-serif;
     font-size: 30pt;
     color: rgb(255, 43, 51);
     padding-top: 24px;
